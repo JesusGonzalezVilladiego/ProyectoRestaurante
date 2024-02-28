@@ -102,7 +102,7 @@ String Password = "1234";
 String Pass = new String(Contraseña.getPassword());
 
 if (TxtUsuario.getText().equals(Username) && Pass.equals(Password)) {
-    /*Aca va la logica cuando el usuario ingrese al otro frame.*/
+    System.out.println("Cambio para que se vea en git hub");
 } else if (!TxtUsuario.getText().equals(Username)) {
     JOptionPane.showMessageDialog(this, "El usuario es incorrecto.");
 } else if (!Pass.equals(Password)) {
