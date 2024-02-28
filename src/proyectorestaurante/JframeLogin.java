@@ -103,6 +103,7 @@ String Pass = new String(Contraseña.getPassword());
 
 if (TxtUsuario.getText().equals(Username) && Pass.equals(Password)) {
     System.out.println("Cambio para que se vea en git hub");
+    System.out.println("Este cambio lo hizo de prueba Diego(para nada me ggaste 2 horas cambiando cosas y luego no pude actualizar)");
 } else if (!TxtUsuario.getText().equals(Username)) {
     JOptionPane.showMessageDialog(this, "El usuario es incorrecto.");
 } else if (!Pass.equals(Password)) {
